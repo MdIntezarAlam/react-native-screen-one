@@ -19,7 +19,8 @@ const PackageIcons = () => {
 const styles = StyleSheet.create({
     p_icons: {
         width: '100vw',
-        backgroundColor: "#fff",
+        // backgroundColor: "#fff",
+        backgroundColor: "#909090",
         boxShadow: ' rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px',
     },
     p_flex: {

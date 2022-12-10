@@ -23,7 +23,6 @@ const PackageGiftCard = ({ card, btn }) => {
 const styles = StyleSheet.create({
     card_container: {
         width: '100vw',
-        height: '28vh',
         backgroundColor: '#FBFCFE',
     },
     card_heading: {
@@ -46,9 +45,8 @@ const styles = StyleSheet.create({
         letterSpacing: '2%',
         fontWeight: 500,
     },
-    // card_box
     card_box: {
-        width: '100vw',
+        width: '90vw',
         flexDirection: 'row',
         justifyContent: "space-between"
     },
@@ -58,7 +56,7 @@ const styles = StyleSheet.create({
         borderRadius: '10px',
     },
     card_img: {
-        width: '115px',
+        width: '110px',
         height: '70px',
         borderRadius: '10px',
     }

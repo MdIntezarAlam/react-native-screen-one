@@ -16,7 +16,7 @@ const Packages = () => {
                 <View style={styles.package_flex}>
                     {
                         packageData.map((data) => (
-                            <ImageBackground source={data.src} style={styles.package_flex_box}>
+                            <ImageBackground source={data.src} style={styles.p_Box}>
                                 <Text style={styles.preStyles}>{data.heading}</Text>
                                 <Text style={styles.smallText}>{data.smallTexts} <br />{data.brSmallText}</Text>
                                 <View style={styles.text_flex}>
@@ -30,7 +30,6 @@ const Packages = () => {
             </View>
             <PackageGiftCard card={"Gift Card"} btn={"Show All"} />
             <PackageContact heading={"Contact Details"} />
-            {/* Opening Compoent */}
             <Text style={styles.opeaning}>Opeaning Our</Text>
             <View style={styles.opeaning_Date}>
                 <Text style={styles.dayStyle}>Monday - Sunday </Text>
@@ -40,7 +39,6 @@ const Packages = () => {
                 <Text style={styles.dayStyle}>Sunday </Text>
                 <Text style={styles.dateStyle}>Closed</Text>
             </View>
-            {/* Package Gallery component */}
             <PackageGallery />
         </View>
     );
@@ -74,17 +72,20 @@ const styles = StyleSheet.create({
         fontWeight: 500,
     },
     package_flex: {
-        padding: '5px',
+        width: '100vw',
         flexDirection: 'row',
+        padding: '10px',
+        backgroundColor: "#fff",
+        justifyContent: 'space-around',
     },
-    package_flex_box: {
-        minWidth: '200px',
-        height: "187px",
+    p_Box: {
+        width: '190px',
+        minHeight: '200px',
+        margin: 5,
+        borderRadius: '5px',
         backgroundColor: "#E0D7D7",
-        justifyContent: 'center',
-        margin: '5px',
-        padding: '20px',
-        borderRadius: '20px'
+        padding: '10px',
+        borderRadius: '50%'
     },
     preStyles: {
         color: "orange",
@@ -92,22 +93,25 @@ const styles = StyleSheet.create({
         fontWeight: '800',
         lineHeight: '20px',
         letterSpacing: '2%',
-        padding: '5px',
+        marginTop: '20px'
     },
     smallText: {
         color: "#fff",
-        fontSize: '12px',
+        fontSize: '15px',
         fontWeight: '400',
         lineHeight: '17px',
         letterSpacing: '2%',
-        padding: '5px',
         opacity: 1,
+        marginTop: '10px'
     },
     text_flex: {
+        width: '100%',
+        flex: 1,
         flexDirection: 'row',
         justifyContent: "space-between",
-        paddingTop: 10,
-        alignItems: 'center'
+        alignItems: 'center',
+        marginTop: '10px',
+
     },
     textStyle: {
         fontSize: '18px',
@@ -123,7 +127,8 @@ const styles = StyleSheet.create({
         fontWeight: "400",
         padding: '5px',
         borderRadius: '10px',
-        textAlign: 'center'
+        textAlign: 'center',
+
     },
 
 
@@ -169,7 +174,11 @@ const styles = StyleSheet.create({
         fontWeight: '400',
         lineHeight: "24px",
         letterSpacing: '2%'
+    },
+    smallBox: {
+        backgroundColor: "#000",
     }
+
 })
 
 export default Packages;

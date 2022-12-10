@@ -11,8 +11,8 @@ export const homeBox_two = [
     { name: "Jenny", src: require('../assets/b3.jpg') },
 ]
 export const packageData = [
-    { heading: "Premium Package", smallTexts: "Premium Package", brSmallText: "Massage + Hair Cut & more...", price: "$ 499", btn: "Buy Now", src: require("../assets/p6.jpg") },
-    { heading: "Standad Package", smallTexts: "Premium Package", brSmallText: "Massage + Hair Cut & more...", price: "$ 249", btn: "Buy Now", src: require("../assets/p6.jpg") },
+    { heading: "Premium Package", smallTexts: "Premium Package", brSmallText: "Massage + Hair Cut & more...", price: "$ 499", btn: "Buy Now", src: require("../assets/lf1.jpg") },
+    { heading: "Standad Package", smallTexts: "Premium Package", brSmallText: "Massage + Hair Cut & more...", price: "$ 249", btn: "Buy Now", src: require("../assets/lf1.jpg") },
 ]
 export const packageGiftCard = [
     { src: require("../assets/g1.jpg") },

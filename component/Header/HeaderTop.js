@@ -6,48 +6,52 @@ const HeaderTop = () => {
         <View style={styles.top}>
             <Text style={styles.text1Style}>9:41</Text>
             <Text style={styles.text2Style}>2</Text>
-            <Text style={styles.textThreeStyle}></Text>
+            <Text style={styles.textThreeStyle}>
+                <Text>1</Text>
+                <Text>2</Text>
+                <Text>3</Text>
+            </Text>
         </View>
     );
 }
 
 const styles = StyleSheet.create({
     top: {
-        width: '95vw',
+        width: '100vw',
         height: '20px',
         padding: '20px',
-        margin: 'auto',
         flex: 1,
         flexDirection: 'row',
-        padding:'5px',
     },
     text1Style: {
         position: 'absolute',
         width: '28.43px',
-        height: '11.09px',
-        left: '12.45px',
-        top: '5.17px',
         color: "#fff",
-        textAlign: 'center',
+        fontSize: '15px',
     },
 
     text2Style: {
         position: 'absolute',
-        width: '230.06px',
+        width: '250px',
         height: '233.64px',
-        left: ' 50.25px',
-        top: '-152.08px',
+        left: ' 70px',
+        top: '-122.08px',
         opacity: '0.5',
         border: '1px solid #C0E1BF',
         backgroundColor: "green",
         borderRadius: '50%'
     },
-     textThreeStyle: {
+    textThreeStyle: {
         position: 'absolute',
-        width: '3px',
+        width: '80px',
         height: '8.33px',
-        top: ' 22px',
+        right: ' 24px',
         backgroundColor: ' #DADADA',
+        top: '28.33px',
+        left: '325px',
+        color: "#fff",
+        fontSize: "15px",
+        backgroundColor: "#909090",
     }
 })
 

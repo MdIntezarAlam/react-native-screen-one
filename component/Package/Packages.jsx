@@ -175,9 +175,6 @@ const styles = StyleSheet.create({
         lineHeight: "24px",
         letterSpacing: '2%'
     },
-    smallBox: {
-        backgroundColor: "#000",
-    }
 
 })
 

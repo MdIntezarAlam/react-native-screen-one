@@ -1,9 +1,10 @@
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
 
+
 const HomeLocation = () => {
     return (
-        <View style={styles.location}>
+        <View>
             <View style={styles.location_heading}>
                 <Text style={styles.location_heading_Style}>Our Location</Text>
                 <Text style={styles.location_btn_Style}>Show All</Text>
@@ -24,9 +25,7 @@ const HomeLocation = () => {
 }
 
 const styles = StyleSheet.create({
-    location: {
-        // marginTop: '20px',
-    },
+
     location_heading: {
         flexDirection: 'row',
         justifyContent: 'space-between',
@@ -52,7 +51,7 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         width: '100%',
-        justifyContent: 'space-around'
+        justifyContent: 'space-around',
     },
     location_one: {
         width: '102px',
@@ -70,7 +69,7 @@ const styles = StyleSheet.create({
         borderTopLeftRadius: '14px',
         backgroundColor: '#FFFFFF',
         boxShadow: '0px 1px 4px rgba(0, 0, 0, 0.25)',
-        padding:"10px"
+        padding: "10px"
     },
 })
 

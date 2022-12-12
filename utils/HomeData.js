@@ -47,3 +47,11 @@ export const location_middle_data = [
     { rightImg: require("../assets/scr1.png"), fmText: "FM 529", fmlongText: "1714 FM 529 Rd,Houston Tx 77095", crosImg: require("../assets/sci4.png") },
     { rightImg: require("../assets/scr1.png"), fmText: "FM 529", fmlongText: "1714 FM 529 Rd,Houston Tx 77095", crosImg: require("../assets/sci4.png") },
 ]
+
+// Screen three data 
+export const serviceOnemiddle = [
+    { img1: require("../assets/hd.png"), img2: require("../assets/hd.png"), title1: "Haircut & Styling", title2: "MAkup" },
+    { img1: require("../assets/hd.png"), img2: require("../assets/hd.png"), title1: "Meni-Padi", title2: "Coloring" },
+    { img1: require("../assets/hd.png"), img2: require("../assets/hd.png"), title1: "Spa Massage", title2: "Nails" },
+    { img1: require("../assets/hd.png"), img2: require("../assets/hd.png"), title1: "Haircut & Styling", title2: "Haircut & Styling" },
+]

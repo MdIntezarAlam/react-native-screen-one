@@ -6,7 +6,8 @@ import { View, StyleSheet } from 'react-native';
 // import Packages from './component/ScreenOne/Package/Packages';
 
 // screen two******
-import LocationPage from './component/ScreenTwo/LocationPage/LocationPage';
+// import LocationPage from './component/ScreenTwo/LocationPage'
+import ServiceOne from './component/ScreenThree/SelecetServiceOne/ServiceOne';
 
 const App = () => {
     return (
@@ -20,8 +21,14 @@ const App = () => {
 
 
         // Screen One Components****************
+        // <View style={styles.app_container}>
+        //     <LocationPage />
+        // </View>
+
+
+        // Screen three*********************
         <View style={styles.app_container}>
-            <LocationPage />
+            <ServiceOne />
         </View>
     );
 }

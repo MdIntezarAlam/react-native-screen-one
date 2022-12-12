@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default as LocationHeader } from \"./\";","map":{"version":3,"names":["default","LocationHeader"],"sources":["E:/firstapp/firstapp/component/ScreenTwo/LocationPage/index.js"],"sourcesContent":["export { default as LocationHeader} from './'"],"mappings":"AAAA,SAASA,OAAO,IAAIC,cAAc"},"metadata":{},"sourceType":"module"}

@@ -1,16 +1,25 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Header from './component/Header/Header';
-import Home from './component/Home/Home';
-import Packages from './component/Package/Packages';
+// import LocationPage from './component/ScreenTwo/LocationPage/LocationPage';
+import Header from './component/ScreenOne/Header/Header';
+import Home from './component/ScreenOne/Home/Home'
+import Packages from './component/ScreenOne/Package/Packages';
+// screen two******
 
 const App = () => {
     return (
-        <View style={styles.app_container}>
+        // Screen One Components
+        < View style={styles.app_container} >
             <Header />
             <Home />
             <Packages />
-        </View>
+        </View >
+
+
+        // // Screen One Components****************
+        // <View style={styles.app_container}>
+        //     <LocationPage />
+        // </View>
 
 
     );

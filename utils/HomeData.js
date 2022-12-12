@@ -1,3 +1,10 @@
+export const middle_header_data = [
+    { discount: "Upto 50%", beauity: "Look more beautiful and", beauityBr: "Save more discount", getOff: "Get Offer now!", img: require("../assets/hd.png") },
+    { discount: "Upto 50%", beauity: "Look more beautiful and", beauityBr: "Save more discount", getOff: "Get Offer now!", img: require("../assets/hd.png") },
+    { discount: "Upto 50%", beauity: "Look more beautiful and", beauityBr: "Save more discount", getOff: "Get Offer now!", img: require("../assets/hd.png") },
+]
+
+
 export const homeBox_one = [
     { name: "Haircut", src: require('../assets/m1.png') },
     { name: "Makeup", src: require('../assets/m2.jpg') },

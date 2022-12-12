@@ -1,5 +1,0 @@
-export { default as HomeTab } from './HomeTab'
-export { default as NotificationTab } from './NotificationTab'
-export { default as MessageTab } from './MessageTab'
-export { default as InboxTab } from './InboxTab'
-export { default as AvatarTab } from './AvatarTab'

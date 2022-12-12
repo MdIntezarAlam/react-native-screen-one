@@ -1,10 +1,10 @@
+//screeen One All Data  start...*************************////
+
 export const middle_header_data = [
     { discount: "Upto 50%", beauity: "Look more beautiful and", beauityBr: "Save more discount", getOff: "Get Offer now!", img: require("../assets/hd.png") },
     { discount: "Upto 50%", beauity: "Look more beautiful and", beauityBr: "Save more discount", getOff: "Get Offer now!", img: require("../assets/hd.png") },
     { discount: "Upto 50%", beauity: "Look more beautiful and", beauityBr: "Save more discount", getOff: "Get Offer now!", img: require("../assets/hd.png") },
 ]
-
-
 export const homeBox_one = [
     { name: "Haircut", src: require('../assets/m1.png') },
     { name: "Makeup", src: require('../assets/m2.jpg') },
@@ -36,4 +36,14 @@ export const packageGallery = [
     { src: require("../assets/hd.png") },
     { src: require("../assets/hd.png") },
     { src: require("../assets/hd.png") },
+]
+//screeen One All Data  end...*************************////
+
+
+//screeen Two All Data  start...*************************////
+
+export const location_middle_data = [
+    { rightImg: require("../assets/sci3.jpg"), fmText: "FM 529", fmlongText: "1714 FM 529 Rd,Houston Tx 77095", crosImg: require("../assets/sci4.png") },
+    { rightImg: require("../assets/scr1.png"), fmText: "FM 529", fmlongText: "1714 FM 529 Rd,Houston Tx 77095", crosImg: require("../assets/sci4.png") },
+    { rightImg: require("../assets/scr1.png"), fmText: "FM 529", fmlongText: "1714 FM 529 Rd,Houston Tx 77095", crosImg: require("../assets/sci4.png") },
 ]
